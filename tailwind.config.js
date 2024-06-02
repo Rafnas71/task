@@ -12,6 +12,9 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      backgroundSize: {
+        "200%": "200%",
+      },
       keyframes: {
         textShine: {
           "0%": { backgroundPosition: "0% 50%" },
@@ -27,10 +30,10 @@ module.exports = {
     function ({ addUtilities }) {
       const newUtilities = {
         ".scrollbar-hide": {
-          "-ms-overflow-style": "none" ,
-          "scrollbar-width": "none" ,
+          "-ms-overflow-style": "none",
+          "scrollbar-width": "none",
           "&::-webkit-scrollbar": {
-            display: "none" ,
+            display: "none",
           },
         },
       };

@@ -2,8 +2,6 @@ import Popup from "@/components/Popup";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-
-
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const router = useRouter();
@@ -14,9 +12,9 @@ const Home = () => {
 
   return (
     <div className="flex flex-col items-center min-h-screen bg-white">
-      <div className="flex pt-9">
-        <h1 className="text-6xl font-medium mb-8 bg-clip-text	text-transparent bg-gradient-to-r  hover:bg-gradient-to-l from-blue-700 to-red-500 animate-bounce">
-          Welcome
+      <div className="flex pt-9 ">
+        <h1 className="text-6xl font-medium mb-8 bg-clip-text	text-transparent bg-gradient-to-r bg-200% shine hover:bg-gradient-to-l from-blue-600 to-red-600 ">
+          Hello World!
         </h1>
       </div>
 
